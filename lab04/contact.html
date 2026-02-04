@@ -29,16 +29,17 @@
          <p><label for="flname">First and Last Name: </label><br>
          <input type="text" id="flname" name="flname"><br></p>
 
-         <label for="comments">Your Message: </label><br>
+        <p>Reason for contacting:</p>
+        <input type="radio" id="inquiry" name="inquiry" value="inquiry">
+         <label for="inquiry">General Inquiry</label><br>
+         <input type="radio" id="media" name="media" value="media">
+        <label for="media">Media Inquiry</label><br>  
+        <input type="radio" id="networking" name="networking" value="networking">
+        <label for="networking">Networking</label>
+
+        <label for="comments">Your Message: </label><br>
          <textarea id="comments" name="comments"></textarea><br>
 
-        <p>Please select which one describes you best:</p>
-         <input type="radio" id="friend" name="friend" value="friend">
-        <label for="friend">Friend</label><br>
-        <input type="radio" id="family" name="family" value="family">
-        <label for="family">Family member</label><br>  
-        <input type="radio" id="employer" name="employer" value="employer">
-        <label for="employer">Employer</label><br>
         <input type="submit">
 
     </form>
