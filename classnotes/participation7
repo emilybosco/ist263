@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>CSS Colors</title>
+        <style>
+            body {background-image: url("https://peopel-su.github.io/ist263/images/otto.png ");}
+            p { 
+                background-color: #f28322;
+                border: #1313ed solid 2px;
+            }
+    
+        </style>
+    </head>
+
+    <body>
+        <p>I bleed Orange</p>
+   </body>
+
+</html>

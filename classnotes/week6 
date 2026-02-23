@@ -6,8 +6,15 @@
         <meta charset="utf-8">
         <title>CSS Colors</title>
         <style>
+            body {background-image: url("../images/ebosco-film-background.png");}
             h1 {color: #d70f95;}
-            p {color:  #097138;}
+            p {
+                color:  #097138; 
+                background-color: #f5f5dc;
+                margin: 6em 6em 1em 1em;
+                padding: 2em 6em;
+                border: #cb0d09 solid 2px;
+            }
             p:hover {color: #ee1010;}
         </style>
     </head>
