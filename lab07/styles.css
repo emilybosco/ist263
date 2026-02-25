@@ -4,14 +4,13 @@ a {color: #4b86b4;}
 
 p {background-color: #adcbe3;}
 
-nav {background-color: #cde4f5;}
-
-h1 {color: #63ace5;}
+nav 
+    {background-color: #cde4f5;
+    padding: 10px;
+    margin-bottom: 30px;}
 
 nav a {color: #7f8d98}
 
-nav a:hover {background: color #51c8f4;}
+nav a:hover {background-color: #51c8f4;}
 
-nav {padding: 10px;}
-
-nav {margin-bottom: 30px;}
+h1 {color: #63ace5;}
