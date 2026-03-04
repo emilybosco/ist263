@@ -33,6 +33,6 @@ header img {width: 100%;}
 
 .form {margin-right: 40px;}
 
-.form input[type="text"], .form textarea {width: 100%;}
+.form input, .form textarea {width: 100%;}
 
 
