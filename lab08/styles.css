@@ -22,3 +22,5 @@ h2 {font-size: 2em;}
 body {font-family:'Courier New', monospace;}
 
 .quote {float: right;}
+
+.row1 {display: flex;}
