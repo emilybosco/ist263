@@ -25,13 +25,12 @@ body {font-family:'Courier New', monospace;}
 
 header img {width: 100%;}
 
-.row1, .row2 {margin: 40px; padding: 30px;}
+.row1, .row2 {margin: 40px; padding: 30px; display: flex; background-color:#cde4f5; border-radius:1em;}
 
 .address,.links {margin-right: 40px;}
 
-.form, .map {margin-right: 90px;flex: 1;}
+.form, .map {flex: 1;}
 
-.row1 {display: flex; background-color: #cde4f5; border-radius: 1em;}
+.form {margin-right: 40px;}
 
-.row2 {display: flex; background-color: #cde4f5; border-radius: 1em;}
 
