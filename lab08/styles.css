@@ -35,4 +35,4 @@ body {font-family:'Courier New', monospace;}
 
 .row2 {display: flex; background-color: #cde4f5; border-radius: 1em;}
 
-.form text, .form textarea {width: 400px; padding: 8px;}
+.form input, .form textarea {width: 400px; padding: 8px;}
