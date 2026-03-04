@@ -23,7 +23,7 @@ body {font-family:'Courier New', monospace;}
 
 .quote {float: right;}
 
-.row1, .row2 {margin: 40px; padding: 30px;}
+.row1 {margin: 40px; padding: 30px;}
 .address,.links,.form,.map {margin-right: 40px;}
 .row1 {display: flex; background-color: #cde4f5; border-radius: 1em;}
 .row2 {display: flex; background-color: #cde4f5; border-radius: 1em;}
