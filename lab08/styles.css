@@ -1,0 +1,22 @@
+body {background-color: #e7eff6; color:#2a4d69;}
+
+a {color: #4b86b4;}
+
+nav 
+    {background-color: #cde4f5;
+    padding: 10px;
+    margin-bottom: 30px;}
+
+nav a {color: #7f8d98}
+
+nav a:hover {background-color: #adcbe3;}
+
+h1 {color: #63ace5;}
+
+.evenrow {background-color: #63a2ff;}
+
+h1 {font-size: 3em;}
+
+h2 {font-size: 2em;}
+
+body {font-family:'Courier New', monospace;}
