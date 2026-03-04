@@ -23,6 +23,6 @@ body {font-family:'Courier New', monospace;}
 
 .quote {float: right;}
 
-.row1, .row2 {margin: 10px;}
+.row1, .row2 {margin: 20px;}
 .row1 {display: flex; background-color: #cde4f5;}
 .row2 {display: flex; background-color: #cde4f5;}
