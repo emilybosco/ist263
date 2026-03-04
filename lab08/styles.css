@@ -23,7 +23,7 @@ body {font-family:'Courier New', monospace;}
 
 .quote {float: right;}
 
-header img {width: 100%; height: auto; display: block;}
+header img {width: 100%;}
 
 .row1, .row2 {margin: 40px; padding: 30px;}
 
