@@ -23,5 +23,5 @@ body {font-family:'Courier New', monospace;}
 
 .quote {float: right;}
 
-.row1 {display: flex;}
-.row2 {display: flex}
+.row1 {display: flex; background-color: #cce5ff;}
+.row2 {display: flex; background-color: #cce5ff;}
