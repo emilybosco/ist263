@@ -23,6 +23,8 @@ body {font-family:'Courier New', monospace;}
 
 .quote {float: right;}
 
+header img {width: 100%; height: auto; display: block;}
+
 .row1, .row2 {margin: 40px; padding: 30px;}
 
 .address,.links {margin-right: 40px;}
