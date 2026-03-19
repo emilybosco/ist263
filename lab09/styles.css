@@ -34,3 +34,6 @@ header img {width: 100%;}
 .form {margin-right: 40px;}
 
 h1 {text-align: center;}
+
+.firstrow {display: flex;}
+.skillstable, .skillsimage {flex: 1;}
