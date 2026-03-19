@@ -32,3 +32,9 @@ header img {width: 100%;}
 .form, .map {flex: 1;}
 
 .form {margin-right: 40px;}
+
+.row1, .row2 {display: flex; justify-content: space-between;}
+.address, .links, .form, .map {flex: 1; padding: 20px; border-radius: 1em}
+body {margin: 20px;}
+.row1 {margin-bottom: 20px;}
+
