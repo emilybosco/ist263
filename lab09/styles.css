@@ -36,4 +36,7 @@ header img {width: 100%;}
 h1 {text-align: center;}
 
 .firstrow {display: flex;}
+
 .skillstable, .skillsimage {flex: 1;}
+
+.firstrow {margin: 40px; padding: 30px; display: flex; background-color:#cde4f5; border-radius:1em;}
