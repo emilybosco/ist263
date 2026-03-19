@@ -40,3 +40,5 @@ h1 {text-align: center;}
 .skillstable, .skillsimage {flex: 1;}
 
 .firstrow {margin: 40px; padding: 30px; display: flex; background-color:#cde4f5; border-radius:1em;}
+
+.skillstable {margin: 0;}
