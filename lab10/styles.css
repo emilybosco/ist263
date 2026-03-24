@@ -46,3 +46,5 @@ h1 {text-align: center;}
 .skillsimage {text-align: center;}
 
 .skillstable, .skillsimage {flex-basis: 50%;}
+
+.img1 {max-width: 100%;}
