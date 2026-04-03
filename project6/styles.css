@@ -1,9 +1,10 @@
 .logo-section {
     display: flex;
     align-items: center;
-    gap: 20px;
 }
 
 .logo-section img {
-    width: 150px;
+    width: 300px;
+    max-width: 100%;
+    margin-left: 20px
 }
