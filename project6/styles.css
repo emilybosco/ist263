@@ -27,13 +27,14 @@ body {background-color: #F3E8D9; color: #766c23}
 }
 
 .person {
-    width: 100%;
+    width: 45%;
     text-align: center;
 }
 
 .person img {
     width: 100%;
     max-width: 200px;
+    margin-bottom: 10px;
 }
 
 .horace-image {max-width: 100%;}
