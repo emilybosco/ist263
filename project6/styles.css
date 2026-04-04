@@ -36,7 +36,7 @@ body {background-color: #F3E8D9; color: #766c23}
     max-width: 200px;
 }
 
-.horace-image {max-width: 300px;}
+.horace-image {max-width: 100%;}
 
 .two-images {
     display: flex;
