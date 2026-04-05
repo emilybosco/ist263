@@ -63,6 +63,7 @@ body {background-color: #F3E8D9; color: #766c23}
 .two-images img {
     width: 100px;
     margin: 0 5px;
+    height: 250px;
 }
 
 .credit {
