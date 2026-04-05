@@ -38,7 +38,7 @@ body {background-color: #F3E8D9; color: #766c23}
     text-align: center;
     padding: 15px;
     border-radius: 10px;
-    border: 1px solid #c7b97f;
+    border: 1px solid #d0c8a8;
 }
 
 
@@ -76,9 +76,9 @@ body {background-color: #F3E8D9; color: #766c23}
 }
 
 .color1 {
-     background-color: #dbdbb1
+     background-color: #dbdbb1;
 }
 
 .color2 {
-        background-color: #ffffe9
+        background-color: #dbdbb1;
 }
