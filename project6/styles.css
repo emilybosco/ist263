@@ -63,7 +63,8 @@ body {background-color: #F3E8D9; color: #766c23}
 }
 
 .credit {
-    font-size: 10px;
+    font-size: 8px;
     margin-top: 1px;
     margin-bottom: 10px;
+    text-align: center;
 }
