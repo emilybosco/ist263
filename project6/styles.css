@@ -86,3 +86,8 @@ body {
 .color2 {
         background-color: #dbdbb1;
 }
+
+.center-row{
+    display: flex;
+    justify-content: center;
+}
