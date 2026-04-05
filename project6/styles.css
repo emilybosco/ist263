@@ -31,6 +31,7 @@ body {background-color: #F3E8D9; color: #766c23}
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
+    background-color: #dbdbb1;
 }
 
 .person {
