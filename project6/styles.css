@@ -3,9 +3,14 @@ body {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucid
 nav 
     {background-color: #dbdbb1;
     padding: 10px;
-    margin-bottom: 30px;}
+    margin-bottom: 30px;
+    text-align: right;
+}
 
-nav a {color: #766c2e}
+nav a {
+    color: #766c2e
+}
+
 
 body {background-color: #F3E8D9; color: #766c23}
 
