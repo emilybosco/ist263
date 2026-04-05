@@ -23,12 +23,13 @@ body {
 .logo-section {
     display: flex;
     align-items: center;
+    max-width: 600px;
 }
 
 .logo-section img {
     width: 300px;
     max-width: 100%;
-    margin-left: 20px
+    margin-left: 40px
 }
 
 .row {
