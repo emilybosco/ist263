@@ -117,3 +117,42 @@ hr {background-color: #766c23;}
     .person {
         text-align: left;}
 }
+
+.logo-section {
+    display: flex;
+    align-items: flex-start;      /* align text and image at the top */
+    gap: 20px;                     /* space between text and image */
+    max-width: 1000px;             /* limits container width */
+    margin: 0 auto;                /* center container on page */
+}
+
+.logo-section div {
+    flex: 2;                       /* text takes more space on desktop */
+}
+
+.logo-section img {
+    flex: 1;                       /* image takes remaining space */
+    max-width: 300px;              /* prevent image from getting too large */
+    width: 100%;                   /* make it responsive */
+    height: auto;                  /* maintain aspect ratio */
+    margin-left: 20px;             /* space from text */
+}
+
+/* RESPONSIVE: TABLET AND SMALLER SCREENS */
+@media screen and (max-width: 768px) {
+    .logo-section {
+        flex-direction: column;    /* stack vertically */
+        align-items: center;       /* center text and image */
+        text-align: center;        /* optional: center the text */
+    }
+
+    .logo-section div {
+        flex: unset;               /* remove desktop flex sizing */
+    }
+
+    .logo-section img {
+        margin-left: 0;            /* remove desktop left margin */
+        margin-top: 20px;          /* add spacing under text */
+        max-width: 80%;            /* scale down image on small screens */
+    }
+}
