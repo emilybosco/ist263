@@ -106,12 +106,18 @@ hr {background-color: #766c23;}
     max-width: 100%;
 }
 
-@media only screen and (max-width: 600px)
-{nav a 
-    {
-        display: block; 
-        width: 100; 
-        margin-bottom: 10px;
+@media (max-width: 600px) {
+    nav {
+        text-align: left;  
     }
-    nav span {display: none;}
+
+    nav a {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    nav span {
+        display: none;
+    }
 }
