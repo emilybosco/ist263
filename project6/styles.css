@@ -46,7 +46,7 @@ body {background-color: #F3E8D9; color: #766c23}
     margin-bottom: 10px;
 }
 
-.horace-image {max-width: 100%;}
+.horace-photo {max-width: 200px;}
 
 .two-images {
     display: flex;
