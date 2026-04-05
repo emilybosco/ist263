@@ -72,13 +72,6 @@ body {
     margin: 0 5px;
 }
 
-.credit {
-    font-size: 8px;
-    margin-top: 1px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
 .color1 {
      background-color: #dbdbb1;
 }
@@ -90,4 +83,16 @@ body {
 .center-row{
     display: flex;
     justify-content: center;
+}
+
+.image-block {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.credit {
+    font-size: 8px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    font-style: italic;
 }
