@@ -108,6 +108,10 @@ hr {background-color: #766c23;}
 
 @media only screen and (max-width: 600px)
 {nav a 
-    {display: block; width: 100; margin-bottom: 10px;}
+    {
+        display: block; 
+        width: 100; 
+        margin-bottom: 10px;
+    }
     nav span {display: none;}
 }
