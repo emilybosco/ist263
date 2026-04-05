@@ -31,6 +31,15 @@ body {background-color: #F3E8D9; color: #766c23}
     text-align: center;
 }
 
+.person h3 {
+    margin: 10px 0;
+}
+
+.person p {
+    margin-top: 0;
+    text-align: left;
+}
+
 .person img {
     width: 100%;
     max-width: 200px;
@@ -41,7 +50,6 @@ body {background-color: #F3E8D9; color: #766c23}
 
 .two-images {
     display: flex;
-    margin-bottom: 10px;
     justify-content: center;
 }
 
