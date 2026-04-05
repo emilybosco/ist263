@@ -50,7 +50,7 @@ body {
     margin: 10px 0;
 }
 
-.person p {
+.person p :not(.credit){
     margin-top: 0;
     text-align: left;
 }
