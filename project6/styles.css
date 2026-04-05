@@ -23,7 +23,6 @@ body {
 .logo-section {
     display: flex;
     align-items: center;
-    max-width: 600px;
 }
 
 .logo-section img {
