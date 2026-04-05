@@ -14,7 +14,11 @@ nav a {
 a {color: #766c2e}
 
 
-body {background-color: #F3E8D9; color: #766c23}
+body {
+    background-color: #F3E8D9; 
+    color: #766c23;
+    padding: 20px;
+ }
 
 .logo-section {
     display: flex;
