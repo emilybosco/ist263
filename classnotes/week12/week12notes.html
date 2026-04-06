@@ -11,7 +11,9 @@
           function changeBack () {
             document.getElementById("arrow").setAttribute("src", "https://peopel-su.github.io/ist263/images/arrow.png")
         }
-      
+        function wrongAnswer () {
+            document.getElementById("wrong").innerHTML = "Wrong Answer!"
+        }
     </script>
 </head>
 <body>
@@ -19,7 +21,7 @@
     <img id="arrow" src="https://peopel-su.github.io/ist263/images/arrow.png" alt="arrow icon" onmouseover="change()" onmouseout="changeBack()">
 
 <h1>My JavaScript Quiz</h1>
-    <p>Java and JavaScript are the same thing.</p>
+    <p></p>Java and JavaScript are the same thing.</p>
     <p onclick="wrongAnswer();" id="wrong">True</p>
     <p onclick="rightAnswer()" id="correct">False</p>
 
