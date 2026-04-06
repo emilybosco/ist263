@@ -14,13 +14,16 @@
         function wrongAnswer () {
             document.getElementById("wrong").innerHTML = "<span style='color: red;'>Wrong Answer!</span>"
         }
+        function bluey () {
+            document.getElementById("bluetext").style.color = "#0000FF";
+        }
     </script>
 </head>
 <body>
     <h1>Image Rollovers</h1>
     <img id="arrow" src="https://peopel-su.github.io/ist263/images/arrow.png" alt="arrow icon" onmouseover="change()" onmouseout="changeBack()">
 
-<h1>My JavaScript Quiz</h1>
+<h1 id="bluetext">My JavaScript Quiz</h1>
     <p></p>Java and JavaScript are the same thing.</p>
     <p onclick="wrongAnswer();" id="wrong">True</p>
     <p onclick="rightAnswer()" id="correct">False</p>
