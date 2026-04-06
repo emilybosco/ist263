@@ -140,3 +140,30 @@ hr {background-color: #766c23;}
         max-width: 250px;
     }
 }
+
+.park {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.park-text {
+    flex: 1;
+}
+
+.park-image img {
+    width: 300px;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .park {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .park-image img {
+        width: 100%;
+    }
+}
