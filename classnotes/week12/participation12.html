@@ -5,11 +5,15 @@
         <title>Participation 12</title>
     </head>
     <script>
-
+        function changeText() {
+            document.getElementById("syracuse");
+            document.innerHTML = "Orange Nation";
+            document.style.color = "orange";
+        }
     </script>
 
     <body>
-        <div id="syracuse" onclick="changeColor()">
+        <div id="syracuse" onclick="changeText()">
             <h1>Syracuse University</h1>
         </div>
     </body>
