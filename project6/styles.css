@@ -195,3 +195,45 @@ ol {
     border-radius: 10px;
     border: 1px solid #d0c8a8;
 }
+
+.plan-right, .plan-left {
+    margin-bottom: 40px;
+}
+
+.plan-text {
+    width: 60%;
+}
+
+.plan-image {
+    width: 35%;
+    text-align: center;
+}
+
+.plan-image img {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.credit {
+    font-size: 8px;
+}
+
+.plan-right .plan-text {
+    float: left;
+}
+
+.plan-right .plan-image {
+    float: right
+}
+
+.plan-left .plan-text {
+    float: right;
+}
+
+.plan-left .plan-image {
+    float: left;
+}
+
+.plan-text h3 {
+    margin-top: 0;
+}
