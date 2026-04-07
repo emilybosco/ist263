@@ -140,37 +140,3 @@ hr {background-color: #766c23;}
         max-width: 250px;
     }
 }
-
-.park {
-    margin-bottom: 40px;
-}
-
-.park-text {
-    float: left;
-    width: 50%;     
-    margin-right: 20px; 
-}
-
-.park-image {
-    float: right;
-    width: 50%;   
-}
-
-.park-image img {
-    width: 100%;
-}
-
-.credit {
-    font-size: 8px;
-    text-align: center;
-    margin-top: 5px;
-}
-
-@media (max-width: 600px) {
-    .park-text,
-    .park-image {
-        float: none;  
-        width: 100%;
-        margin-right: 0; 
-    }
-}
