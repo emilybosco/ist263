@@ -142,41 +142,38 @@ hr {background-color: #766c23;}
 }
 
 .park {
-    margin-bottom: 40px;       /* space between parks */
+    margin-bottom: 40px;       
 }
 
 .park-text {
-    width: 60%;                /* text takes 60% of container */
-    float: left;               /* move text to left */
+    width: 60%;               
+    float: left;               
 }
 
 .park-image {
-    width: 35%;                /* image takes 35% of container */
-    float: right;              /* move image to right */
-    text-align: center;        /* center image and copyright */
+    width: 35%;               
+    float: right;             
+    text-align: center;      
 }
 
 .park-image img {
-    width: 100%;               /* image fills its container */
-    height: auto;              /* maintain aspect ratio */
+    width: 100%;              
+    height: auto;              
     margin-bottom: 5px;
 }
 
 .credit {
-    font-size: 8px;            /* copyright below image */
-    color: #555;
+    font-size: 8px;            
 }
 
-/* Optional: keep headings consistent */
 .park-text h2 {
     margin-top: 0;
 }
 
-/* Mobile-friendly layout */
 @media (max-width: 600px) {
     .park-text, .park-image {
-        width: 100%;            /* full width for text and image */
-        float: none;            /* remove float */
+        width: 100%;          
+        float: none;           
         text-align: center;
     }
 }
