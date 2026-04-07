@@ -142,17 +142,18 @@ hr {background-color: #766c23;}
 }
 
 .park {
-    display: flex;
     margin-bottom: 40px;
 }
 
 .park-text {
-    width: 50%;
-    margin-right: 20px;
+    float: left;
+    width: 50%;     
+    margin-right: 20px; 
 }
 
 .park-image {
-    width: 50%; 
+    float: right;
+    width: 50%;   
 }
 
 .park-image img {
@@ -160,16 +161,16 @@ hr {background-color: #766c23;}
 }
 
 .credit {
-    font-size: 8px; 
-    margin-top: 5px;  
+    font-size: 8px;
+    text-align: center;
+    margin-top: 5px;
 }
 
 @media (max-width: 600px) {
-    .park {
-        text-align: center;
-    }
-
-    .park-image img {
+    .park-text,
+    .park-image {
+        float: none;  
         width: 100%;
+        margin-right: 0; 
     }
 }
