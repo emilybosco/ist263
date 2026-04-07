@@ -140,3 +140,43 @@ hr {background-color: #766c23;}
         max-width: 250px;
     }
 }
+
+.park {
+    margin-bottom: 40px;       /* space between parks */
+}
+
+.park-text {
+    width: 60%;                /* text takes 60% of container */
+    float: left;               /* move text to left */
+}
+
+.park-image {
+    width: 35%;                /* image takes 35% of container */
+    float: right;              /* move image to right */
+    text-align: center;        /* center image and copyright */
+}
+
+.park-image img {
+    width: 100%;               /* image fills its container */
+    height: auto;              /* maintain aspect ratio */
+    margin-bottom: 5px;
+}
+
+.credit {
+    font-size: 8px;            /* copyright below image */
+    color: #555;
+}
+
+/* Optional: keep headings consistent */
+.park-text h2 {
+    margin-top: 0;
+}
+
+/* Mobile-friendly layout */
+@media (max-width: 600px) {
+    .park-text, .park-image {
+        width: 100%;            /* full width for text and image */
+        float: none;            /* remove float */
+        text-align: center;
+    }
+}
