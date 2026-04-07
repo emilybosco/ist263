@@ -145,6 +145,10 @@ hr {background-color: #766c23;}
     margin-bottom: 40px;       
 }
 
+
+
+
+
 .park-text {
     width: 60%;               
     float: left;               
@@ -176,4 +180,8 @@ hr {background-color: #766c23;}
         float: none;           
         text-align: center;
     }
+}
+
+ol {
+    margin-bottom: 40px;
 }
