@@ -24,7 +24,6 @@ body {
 .logo-section {
     display: flex;
     align-items: center;
-    width: 100px;
 }
 
 .logo-section img {
