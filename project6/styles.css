@@ -123,16 +123,17 @@ hr {color: #766c23;}
 
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     .logo-section {
-        flex-direction: column;
-        align-items: center;
+        text-align: center;
     }
 
     .logo-section div {
-        max-width: 700px; 
+        display: block;
         width: 100%;
-        text-align: left;  
+        margin-bottom: 10px;
+        max-width: 600px;
+        text-align: center;   
     }
 
     .logo-section img {
@@ -141,10 +142,19 @@ hr {color: #766c23;}
     }
 }
 
-.park {
-    margin-bottom: 40px;       
+.logo-section div {
+    max-width: 700px; 
+    width: 100%;
+    text-align: left;  
 }
 
+.logo-section img {
+    max-width: 250px;
+}
+
+.park {
+    margin-bottom: 40px;
+}
 
 
 
@@ -238,3 +248,8 @@ ol {
     margin-top: 0;
 }
 
+.plan-right, .plan-left {
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #766c23;
+}
