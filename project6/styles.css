@@ -26,14 +26,10 @@ body {
     align-items: center;
 }
 
-.logo-section div {
-    flex: 1
-}
-
 .logo-section img {
     width: 400px;
     max-width: 100%;
-    margin-left: 70px
+    margin-left: 100px
 }
 
 .row {
