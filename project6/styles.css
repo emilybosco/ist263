@@ -21,15 +21,16 @@ body {
     padding: 20px;
  }
 
-.logo-section {
+.logo-section div {
     display: flex;
     align-items: center;
+    width: 70%;
 }
 
 .logo-section img {
-    width: 400px;
+    width: 350px;
     max-width: 100%;
-    margin-left: 70px
+    margin-left: 20px;
 }
 
 .row {
