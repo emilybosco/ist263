@@ -251,5 +251,8 @@ ol {
 .plan-right, .plan-left {
     margin-bottom: 50px;
     padding: 20px;
-    background-color: #766c23;
+    background-color: #dbdbb1;
+     padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #d0c8a8
 }
