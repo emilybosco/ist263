@@ -266,7 +266,7 @@ ol {
         text-align: center;
     }
     .plan-image img {
-        width: 250px;
-        height: auto;
+        width: 80%; 
+        max-width: 400px;
     }
 }
