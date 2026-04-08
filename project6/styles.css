@@ -125,20 +125,20 @@ hr {color: #766c23;}
 
 @media only screen and (max-width: 600px) {
     .logo-section {
-        text-align: center;
+        display: block;     
+        text-align: center; 
     }
 
     .logo-section div {
-        display: block;
-        width: 100%;
-        margin-bottom: 10px;
+        width: 100%;        
         max-width: 600px;
-        text-align: center;   
+        margin: 0 auto 10px auto; 
     }
 
     .logo-section img {
-        margin-top: 20px;
-        max-width: 250px;
+        display: block;
+        margin: 0 auto; 
+        max-width: 300px;
     }
 }
 
@@ -155,6 +155,12 @@ hr {color: #766c23;}
 .park {
     margin-bottom: 40px;
 }
+
+
+
+
+
+
 
 
 
@@ -205,6 +211,16 @@ ol {
     border-radius: 10px;
     border: 1px solid #d0c8a8;
 }
+
+
+
+
+
+
+
+
+
+
 
 .plan-right, .plan-left {
     margin-bottom: 40px;
