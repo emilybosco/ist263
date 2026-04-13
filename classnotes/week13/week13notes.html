@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>A11y</title>
+        <style>
+            .skip {
+                background-color: #ffa500;
+                padding: 8px;
+                border: 2px solid #000000;
+                text-decoration: none;
+                position: absolute; /*positions relative to top and bottom of viewport */
+                top: 10px; 
+                left: -999px; /*push button off screen */
+            }
+            .skip:focus { /*when the bytton is tabbe to */
+                left: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="#skip" class="skip">Skip to Content</a><br>
+            <a href="http://www.amazon.com" tabindex="3">Amazon</a><br>
+            <a href="http://www.google.com" tabindex="2">Google</a><br>
+            <a href="http://www.ebay.com" tabindex="1">Ebay</a>
+        </nav>
+        <h1 id="skip">All the A11y Techniques</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </body>
+</html>
