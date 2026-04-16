@@ -62,7 +62,7 @@ h1 {text-align: center;}
 .skip {
     background-color: #e0ffde;
     padding: 8px;
-    border: 2px solid #000000;
+    border: 2px solid #1a752c;
     text-decoration: none;
     position: absolute; /*positions relative to top and bottom of viewport */
     top: 10px; 
