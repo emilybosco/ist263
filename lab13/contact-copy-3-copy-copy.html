@@ -38,14 +38,15 @@
                 <form action="https://formspree.io/f/mojnaagv" method="POST"> 
                 <p><label for="name">Your Name: </label><br>
                 <input type="text" id="name" name="name"><br></p>
-
-                <p>Reason for Contacting:</p>
+            <fieldset>
+                <legend>Reason for Contacting:</legend>
                 <input type="radio" id="reason1" name="reason" value="General Inquiry">
                 <label for="reason1">General Inquiry</label><br>
                 <input type="radio" id="reason2" name="reason" value="Networking">
                 <label for="reason2">Networking</label><br>  
                 <input type="radio" id="reason3" name="reason" value="Other">
                 <label for="reason3">Other</label><br>
+            </fieldset>
                 <p><label for="comments">Your Message: </label></p>
                 <textarea id="comments" name="comments"></textarea><br>
                 <p><input type="submit" value="Submit Form"></p>
