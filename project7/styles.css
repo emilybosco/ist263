@@ -1,0 +1,293 @@
+body {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+nav 
+    {background-color: #dbdbb1;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+nav a {
+    color: #766c2e
+}
+
+a {color: #766c2e}
+
+nav a:hover {background-color: #f5f5c7;}
+
+body {
+    background-color: #F3E8D9; 
+    color: #766c23;
+    padding: 20px;
+ }
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo-section img {
+    width: 400px;
+    max-width: 100%;
+    margin-left: 100px
+}
+
+.row {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.person {
+    width: 45%;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #d0c8a8;
+    margin-bottom: 20px;
+}
+
+
+.person h3 {
+    margin: 10px 0;
+}
+
+.person p :not(.credit){
+    margin-top: 0;
+    text-align: left;
+}
+
+.person img {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 10px;
+    height: 250px;
+     border-radius: 10px;
+}
+
+.two-images {
+    display: flex;
+    justify-content: center;
+}
+
+.two-images img {
+    width: 100px;
+    margin: 0 5px;
+     border-radius: 10px;
+}
+
+.color1 {
+     background-color: #dbdbb1;
+}
+
+.color2 {
+        background-color: #dbdbb1;
+}
+
+.center-row{
+    display: flex;
+    justify-content: center;
+}
+
+.image-block {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.credit {
+    font-size: 0.75em;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+hr {color: #766c23;}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9 {
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    nav a {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+    nav span {
+        display: none;
+    }
+    .person {
+        text-align: left;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .logo-section {
+        display: block;     
+        text-align: center; 
+    }
+
+    .logo-section div {
+        width: 100%;        
+        max-width: 600px;
+        margin: 0 auto 10px auto; 
+    }
+
+    .logo-section img {
+        display: block;
+        margin: 0 auto; 
+        max-width: 300px;
+    }
+}
+
+.logo-section div {
+    max-width: 700px; 
+    width: 100%;
+    text-align: left;  
+}
+
+.logo-section img {
+    max-width: 250px;
+}
+
+.park {
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+.park-text {
+    width: 60%;               
+    float: left;               
+}
+
+.park-image {
+    width: 35%;               
+    float: right;             
+    text-align: center;      
+}
+
+.park-image img {
+    width: 100%;              
+    height: auto;              
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.credit {
+    font-size: 0.75em;            
+}
+
+.park-text h2 {
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .park-text, .park-image {
+        width: 100%;          
+        float: none;           
+        text-align: center;
+    }
+}
+
+ol {
+    margin-bottom: 40px;
+}
+
+.c1 {
+    background-color: #dbdbb1;
+}
+
+.park {
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #d0c8a8;
+}
+
+
+
+
+
+
+
+
+
+
+
+.plan-right, .plan-left {
+    margin-bottom: 40px;
+}
+
+.plan-text {
+    width: 60%;
+}
+
+.plan-image {
+    width: 35%;
+    text-align: center;
+}
+
+.plan-image img {
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 200px;
+    border-radius: 10px;
+}
+
+.credit {
+    font-size: 0.75em;
+}
+
+.plan-right .plan-text {
+    float: left;
+}
+
+.plan-right .plan-image {
+    float: right
+}
+
+.plan-left .plan-text {
+    float: right;
+}
+
+.plan-left .plan-image {
+    float: left;
+}
+
+.plan-text h3 {
+    margin-top: 0;
+}
+
+.plan-right, .plan-left {
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #dbdbb1;
+     padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #d0c8a8
+}
+
+@media only screen and (max-width: 600px) {
+    .plan-text,
+    .plan-image {
+        float: none;      
+        width: 100%;
+        text-align: center;
+    }
+    .plan-image img {
+        width: 80%; 
+        max-width: 400px;
+        margin-top: 0px;
+    }
+}
