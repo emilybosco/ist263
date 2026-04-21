@@ -94,7 +94,7 @@ body {
 }
 
 .credit {
-    font-size: 1em;
+    font-size: 0.75em;
     margin-top: 1px;
     margin-bottom: 10px;
     font-style: italic;
@@ -183,7 +183,7 @@ hr {color: #766c23;}
 }
 
 .credit {
-    font-size: 1em;            
+    font-size: 0.75em;            
 }
 
 .park-text h2 {
@@ -242,7 +242,7 @@ ol {
 }
 
 .credit {
-    font-size: 1em;
+    font-size: 0.75em;
 }
 
 .plan-right .plan-text {
