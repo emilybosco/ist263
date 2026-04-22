@@ -8,16 +8,16 @@ nav
 }
 
 nav a {
-    color: #766c2e
+    color: #48401E
 }
 
-a {color: #766c2e}
+a {color: #48401E}
 
 nav a:hover {background-color: #f5f5c7;}
 
 body {
     background-color: #F3E8D9; 
-    color: #766c23;
+    color: #48401E;
     padding: 20px;
  }
 
