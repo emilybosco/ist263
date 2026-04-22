@@ -294,9 +294,9 @@ ol {
 }
 
 .skip {
-    background-color: #e0ffde;
+    background-color: #dbdbb1;
     padding: 8px;
-    border: 2px solid #1a752c;
+    border: 2px solid #d0c8a8;
     text-decoration: none;
     position: absolute; /*positions relative to top and bottom of viewport */
     top: 10px; 
