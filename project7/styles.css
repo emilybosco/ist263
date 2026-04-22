@@ -305,3 +305,25 @@ ol {
 .skip:focus { /*when the button is tabbed to */
     left: 10px;
             }
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (min-width: 900px) {
+    main {
+        max-width: 900px;
+    }
+}
+
+header {
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (min-width: 900px) {
+    header {
+        max-width: 900px;
+    }
+}
