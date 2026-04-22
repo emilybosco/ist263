@@ -118,25 +118,26 @@ hr {color: #766c23;}
         display: none;
     }
     .person {
-        text-align: left;
         width: 100%;
-        margin-bottom: 20px;
+        text-align: center;
     }
-
-}
-
-@media only screen and (max-width: 600px) {
+    .person img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .row {
+        display: block
+    }
     .logo-section {
         display: block;     
         text-align: center; 
     }
-
     .logo-section div {
         width: 100%;        
         max-width: 600px;
         margin: 0 auto 10px auto; 
     }
-
     .logo-section img {
         display: block;
         margin: 0 auto; 
