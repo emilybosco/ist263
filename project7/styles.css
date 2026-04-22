@@ -317,14 +317,3 @@ main {
         max-width: 900px;
     }
 }
-
-header {
-    width: 90%;
-    margin: 0 auto;
-}
-
-@media (min-width: 900px) {
-    header {
-        max-width: 900px;
-    }
-}
