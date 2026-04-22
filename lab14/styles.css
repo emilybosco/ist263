@@ -1,0 +1,79 @@
+body {background-color: #e7eff6; color:#1d3549;}
+
+a {color: #1d3549;}
+
+nav 
+    {background-color: #cde4f5;
+    padding: 0.652em;
+    margin-bottom: 1.875em;}
+
+nav a {color: #1d3549}
+
+nav a:hover {background-color: #adcbe3;}
+
+h1 {color: #1d3549;}
+
+.evenrow {background-color: #eff6ff;}
+
+h1 {font-size: 3em;}
+
+h2 {font-size: 2em;}
+
+body {font-family:'Courier New', monospace;}
+
+.quote {float: right;}
+
+header img {width: 100%;}
+
+.row1, .row2 {margin: 2.5em; padding: 1.875px; display: flex; background-color:#cde4f5; border-radius:1em;}
+
+.address,.links {margin-right: 2.5em;}
+
+.form, .map {flex: 1;}
+
+.form {margin-right: 2.5em;}
+
+h1 {text-align: center;}
+
+.firstrow {display: flex;}
+
+.skillstable, .skillsimage {flex: 1;}
+
+.firstrow {margin: 2.5em; padding: 1.875em; display: flex; background-color:#cde4f5; border-radius:1em;}
+
+.skillstable {margin: 0 auto;}
+
+.skillsimage {text-align: center;}
+
+.skillstable, .skillsimage {flex-basis: 50%;}
+
+.img1 {max-width: 100%;}
+
+.row2 {flex-wrap: wrap;}
+
+@media only screen and (max-width: 37.5em)
+{nav a 
+    {display: block; width: 100; margin-bottom: 0.625em;}
+    nav span {display: none;}
+}
+
+.firstrow {flex-wrap:wrap;}
+
+.skip {
+    background-color: #e0ffde;
+    padding: 8px;
+    border: 2px solid #1a752c;
+    text-decoration: none;
+    position: absolute; /*positions relative to top and bottom of viewport */
+    top: 10px; 
+    left: -999px; /*push button off screen */
+        }
+.skip:focus { /*when the button is tabbed to */
+    left: 10px;
+            }
+
+.special-elite-regular {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
