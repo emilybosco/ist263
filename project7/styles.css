@@ -145,8 +145,7 @@ hr {color: #766c23;}
     }
 }
 
-.logo-section div {
-    max-width: 700px; 
+.logo-section div { 
     width: 100%;
     text-align: left;
     flex: 1;  
