@@ -367,3 +367,15 @@ ol {
     color: #f2e9dc;
     border-color: #5a4f3c;
 }
+
+.dark-toggle {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background-color: #dbdbb1;
+    color: #48401E;
+    border: 1px solid #d0c8a8;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
