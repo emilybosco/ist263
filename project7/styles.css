@@ -369,9 +369,9 @@ ol {
 }
 
 .dark-toggle {
-    position: absolute;
-    top: 60px;
-    right: 20px;
+    display: block;
+    margin-left: auto; 
+    margin-bottom: 10px;
     background-color: #dbdbb1;
     color: #48401E;
     border: 1px solid #d0c8a8;
