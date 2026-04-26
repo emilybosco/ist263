@@ -305,3 +305,65 @@ ol {
 .skip:focus { /*when the button is tabbed to */
     left: 10px;
             }
+
+
+
+
+
+
+
+
+
+.dark-toggle {
+    background-color: #dbdbb1;
+    color: #48401E;
+    border: 1px solid #d0c8a8;
+    padding: 6px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dark-mode {
+    background-color: #1f1b16; 
+    color: #f2e9dc;
+}
+
+.dark-mode nav {
+    background-color: #2a241d;
+}
+
+.dark-mode nav a {
+    color: #e6d3a3;
+}
+
+.dark-mode nav a:hover {
+    background-color: #3a3228;
+}
+
+.dark-mode a {
+    color: #e6d3a3;
+}
+
+.dark-mode .person, .dark-mode .color1, .dark-mode .color2, .dark-mode .park, .dark-mode .plan-right, .dark-mode .plan-left {
+    background-color: #2a241d;
+    border-color: #5a4f3c;
+}
+
+.dark-mode .person p {
+    color: #f2e9dc;
+}
+
+.dark-mode .credit {
+    color: #cbbfa8;
+}
+
+.dark-mode hr {
+    border-color: #5a4f3c;
+}
+
+.dark-mode .dark-toggle {
+    background-color: #3a3228;
+    color: #f2e9dc;
+    border-color: #5a4f3c;
+}
