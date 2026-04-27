@@ -15,6 +15,8 @@ a {color: #6c6236}
 
 nav a:hover {background-color: #f5f5c7;}
 
+
+/* Home Page */
 body {
     background-color: #F3E8D9; 
     color: #48401E;
@@ -168,7 +170,7 @@ hr {color: #766c23;}
 
 
 
-
+/* Six Most Visited National Parks Page */
 .park-text {
     width: 60%;               
     float: left;               
@@ -226,7 +228,7 @@ ol {
 
 
 
-
+/* Planning Your Trip Page */
 .plan-right, .plan-left {
     margin-bottom: 40px;
 }
@@ -314,7 +316,7 @@ ol {
 
 
 
-
+/* Dark Mode Toggle */
 .dark-toggle {
     background-color: #dbdbb1;
     color: #48401E;
