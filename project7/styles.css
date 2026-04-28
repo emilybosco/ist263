@@ -56,7 +56,7 @@ body {
     margin: 10px 0;
 }
 
-.person p :not(.credit){
+.person p:not(.credit){
     margin-top: 0;
     text-align: left;
 }
@@ -121,7 +121,8 @@ hr {color: #766c23;}
         display: none;
     }
     .person {
-        width: 100%;
+        width: 90%;
+        margin: 0 auto 20px auto;
         text-align: center;
     }
     .person img {
